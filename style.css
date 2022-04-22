@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    background-color: aquamarine;
+    font-family: 'Nunito', sans-serif;
+}
+
+.botton-checkout{
+    background-color: blanchedalmond;
+    color: black;
+    border: 5px silver;
+    transition-duration: 0.5s;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+ 
+}
+
+.botton-checkout:hover {
+    background-color: #7394ef; /* Green */
+    color: white;
+  }
+
+.button-add {
+    border: none;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 2px;
+    padding: 8px 17px;
+    background-color: azure;
+    color: black;
+    border: 2px solid rgb(11, 111, 242);
+    transition-duration: 0.2s;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+}
+
+.button-add:hover {
+    background-color: #acb8d8; /* Green */
+    color: white;
+  }
+
+.page-nav{
+    background-color: rgba(88, 88, 254, 0.468);
+    border: 1px solid black; 
+    position:relative;   
+}
+
+.page-nav h1{
+    padding: 2px 16px;
+    margin-bottom: 1px;
+    margin-left: 25px;
+    
+
+}
+
+.page-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 1px solid red;
+}
+
+.producto-continer{
+    margin: 15px;
+    padding: 2px 16px;
+    position: relative;
+    box-shadow: 0 4px 8px 0;
+    background-color: white;
+}
+
+.producto-continer:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.producto-continer img{
+    width: 300px;
+}
+
